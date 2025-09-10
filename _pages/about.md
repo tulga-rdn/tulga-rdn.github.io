@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 20250317_201301.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +19,17 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello and welcome! I'm Tulga, a dude from Erdenet, Mongolia, working at the intersection of machine learning and computational chemistry. I'm currently working with Prof. Michele Ceriotti at EPFL, where I contribute to various projects related to integrating previously ignored long-range interactions into atomistic ML models. Also, I am working with Prof. Taras V. Pogorelov at UIUC, where I analyze the effect of sterol composition on lipid bilayer systems by translating statistical analysis results into biophysical insights.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- Long-range Interactions: Physics-based (inspired by current MD engines) and data-driven (ML-based) methods for adding long-range corrections to ML potentials
+- Statistical Methods for Biophysics: Advanced statistical techniques for analyzing molecular simulations
+- Scientific Software Development: Efficient, user-friendly, and robust software for computational chemistry
+
+If you are interested in what I did and am doing, please don't hesitate to contact me through whatever means listed on this website that are convenient to you.
