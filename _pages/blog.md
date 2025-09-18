@@ -29,7 +29,8 @@ pagination:
   </div>
   {% endif %}
 
-{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+<!-- tags -->
+<!-- {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
@@ -54,7 +55,7 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+  {% endif %} -->
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
