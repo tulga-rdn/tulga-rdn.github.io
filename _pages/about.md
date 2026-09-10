@@ -24,12 +24,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome! I'm Tulga, a dude from Erdenet, Mongolia, working at the intersection of machine learning and computational chemistry. I'm currently working with Prof. Michele Ceriotti at EPFL, where I contribute to various projects related to integrating previously ignored long-range interactions into atomistic ML models. Also, I am working with Prof. Taras V. Pogorelov at UIUC, where I analyze the effect of sterol composition on lipid bilayer systems by translating statistical analysis results into biophysical insights.
+Hello and welcome! I'm Tulga, a dude from Erdenet, Mongolia, working at the intersection of machine learning and computational chemistry. I'm currently finishing my B.S. in Bio and Brain Engineering (double major in Chemistry) at KAIST, graduating in February 2027.
 
-My research interests include:
+Most of my research so far has been (broadly) on computational chemistry. During a year at EPFL with Prof. Michele Ceriotti, I worked on putting long-range interactions  into atomistic ML models, which led to a TMLR paper and a poster at the DPG (German Physical Society) Spring Meeting. I'm still working with Prof. Taras V. Pogorelov at UIUC, where I do some statistical analysis on biochemical MD simulations. Along the way I've also spent time doing some more applied dry-lab stuff at Mass Gen Hospital/Harvard Medical School, and doing AI/ML internships at Korean startups.
 
-- Long-range Interactions: Physics-based (inspired by current MD engines) and data-driven (ML-based) methods for adding long-range corrections to ML potentials
-- Statistical Methods for Biophysics: Advanced statistical techniques for analyzing molecular simulations
-- Scientific Software Development: Efficient, user-friendly, and robust software for computational chemistry
+My (broad) research interests include:
 
-If you are interested in what I did and am doing, please don't hesitate to contact me through whatever means listed on this website that are convenient to you.
+- (Main) Efficient and interpretable integration of ML to existing computational chemistry workflows. In particular, I am currently fascinated by recent work on integration of experimental data into ML-based processes
+- Advanced statistical techniques for analyzing molecular simulations
+- Efficient, user-friendly, and robust software development for computational chemistry
+
+If you are interested in what I did and am doing, please don't hesitate to contact me through whatever means listed on this website that are convenient to you. I am also open to mentoring and helping out other if I can, and see Mentoring for more.

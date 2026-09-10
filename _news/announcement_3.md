@@ -7,4 +7,4 @@ related_posts: false
 ---
 It allows easy embedding of custom widgets with text, code, plots, and even other widgets (like chemiscope) while hiding the boilerplate code, so please check it out and save your students' sanity by only showing them the relevant stuff :)
 
-[TODO: Write about IAM/AML classes and examples using scwidgets]
+Post still under progress :)

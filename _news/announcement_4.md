@@ -5,6 +5,4 @@ date: 2025-07-25 16:11:00-0400
 inline: false
 related_posts: false
 ---
-We also designed some interesting physics-based benchmarks to check if the model is actually learning the long-range physics. It's time to move away from plain RMSEs for model validation!
-
-[TODO: Write about the benchmarks]
+Post still under progress :)
