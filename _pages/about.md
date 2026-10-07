@@ -15,8 +15,8 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -24,14 +24,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome! I'm Tulga, a dude from Erdenet, Mongolia, working at the intersection of machine learning and computational chemistry. I'm currently finishing my B.S. in Bio and Brain Engineering (double major in Chemistry) at KAIST, graduating in February 2027.
+Hello and welcome! I'm Tulga, a dude from Erdenet, Mongolia, working at the intersection of machine learning and computational chemistry. I'm finishing my B.S. in Bio and Brain Engineering (double major in Chemistry) at KAIST and will graduate in February 2027. **I am applying to PhD programs for Fall 2027.**
 
-Most of my research so far has been (broadly) on computational chemistry. During a year at EPFL with Prof. Michele Ceriotti, I worked on putting long-range interactions  into atomistic ML models, which led to a TMLR paper and a poster at the DPG (German Physical Society) Spring Meeting. I'm still working with Prof. Taras V. Pogorelov at UIUC, where I do some statistical analysis on biochemical MD simulations. Along the way I've also spent time doing some more applied dry-lab stuff at Mass Gen Hospital/Harvard Medical School, and doing AI/ML internships at Korean startups.
+Most of my research has been on machine-learned interatomic potentials (MLIPs). During a year in Prof. Michele Ceriotti's lab at EPFL, I worked on bringing long-range interactions into atomistic ML models. This led to [LOREM](/news/announcement_5/), published in TMLR, and a first-author poster at the DPG (German Physical Society) Spring Meeting. I also contributed to [scicode-widgets](https://arxiv.org/abs/2507.05734), an open-source package for interactive computational-science teaching notebooks. Right now, I'm a research intern at KAIST's Data Science & Artificial Intelligence Lab with Prof. Chanyoung Park, working on LLMs for materials design, and I still work with Prof. Taras V. Pogorelov at UIUC on statistical analysis of biochemical MD simulations. Along the way, I have done computational biochemistry at Mass General Hospital / Harvard Medical School and AI/ML internships at Korean startups.
 
-My (broad) research interests include:
+My research interests:
 
-- (Main) Efficient and interpretable integration of ML to existing computational chemistry workflows. In particular, I am currently fascinated by recent work on integration of experimental data into ML-based processes
-- Advanced statistical techniques for analyzing molecular simulations
-- Efficient, user-friendly, and robust software development for computational chemistry
+- **(Main) ML that fits into computational chemistry workflows efficiently and interpretably**: models that capture the right physics, such as long-range interactions, and that can learn from experimental data as well as simulations
+- Statistical methods for analyzing molecular simulations
+- Efficient, user-friendly, and robust software for computational chemistry
 
-If you are interested in what I did and am doing, please don't hesitate to contact me through whatever means listed on this website that are convenient to you. I am also open to mentoring and helping out other if I can, and see Mentoring for more.
+If you are interested in what I did and am doing, please don't hesitate to reach out through any of the links below.

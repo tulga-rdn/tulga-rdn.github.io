@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am now an visiting undergraduate researcher at the COSMO lab at EPFL, Switzerland, working with Professor Michele Ceriotti on integrating long-range interactions into machine-learned interatomic potentials.
+I'm now a visiting undergraduate researcher at the COSMO lab at EPFL in Switzerland, working with Prof. Michele Ceriotti on adding long-range interactions to machine-learned interatomic potentials!

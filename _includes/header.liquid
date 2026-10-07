@@ -100,7 +100,13 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {%- if p.permalink contains '://' -%}
+                  {%- comment -%}
+                    `nav_href` lets a page send its navbar link straight to a file
+                    (the CV links to the PDF) instead of to the page itself.
+                  {%- endcomment -%}
+                  {%- if p.nav_href -%}
+                    {%- assign url = p.nav_href -%}
+                  {%- elsif p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
                   {%- elsif p.permalink contains '/blog/' -%}
                     {%- assign url = '/blog/' -%}

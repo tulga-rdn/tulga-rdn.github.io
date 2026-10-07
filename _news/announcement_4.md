@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Our preprint on design of a novel long-range machine-learned interatomic potentials, LOREM, is out on arXiv!
 date: 2025-07-25 16:11:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
-Post still under progress :)
+
+Our preprint introducing LOREM, a machine-learned interatomic potential that passes equivariant messages over long distances, is out on arXiv!

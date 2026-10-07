@@ -1,11 +1,13 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: TS_CV.pdf # you can also use external links here
-description:
-toc:
-  sidebar: left
+# The navbar links straight to the PDF; /cv/ stays as a shareable URL that
+# redirects there immediately for anyone who types or bookmarks it.
+nav_href: /assets/pdf/Tulga_Sodjargal_CV.pdf
+redirect: /assets/pdf/Tulga_Sodjargal_CV.pdf
 ---
+
+[Download the CV as a PDF](/assets/pdf/Tulga_Sodjargal_CV.pdf) if you are not redirected automatically.
