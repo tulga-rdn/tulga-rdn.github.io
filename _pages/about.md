@@ -1,12 +1,14 @@
 ---
 layout: about
 title: about
+seo_title: Tulga-Erdene Sodjargal | ML for Computational Chemistry
 permalink: /
 subtitle:
 
 profile:
   align: right
   image: 20250317_201301.jpg
+  image_alt: Portrait of Tulga-Erdene Sodjargal
   image_circular: false # crops the image to make it circular
   more_info:
 

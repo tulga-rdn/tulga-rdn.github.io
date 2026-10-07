@@ -2,6 +2,8 @@
 layout: post
 date: 2025-06-02 09:00:00-0400
 inline: true
+sitemap: false
+noindex: true
 related_posts: false
 ---
 

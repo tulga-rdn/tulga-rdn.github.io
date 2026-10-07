@@ -8,11 +8,28 @@ middle_name:
 last_name: Sodjargal
 contact_note: >
   Please use the most convenient method for you to contact me. I check all of them regularly.
-description: Personal site of Tulga-Erdene Sodjargal, an undergraduate researcher at KAIST working on machine learning for computational chemistry — long-range interactions in ML interatomic potentials, statistical analysis of molecular simulations, and scientific software.
+description: Tulga-Erdene Sodjargal is an undergraduate researcher at KAIST working on machine learning for computational chemistry and long-range interatomic potentials. Currently applying for PhD for Fall 2027.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Tulga-Erdene Sodjargal, machine learning interatomic potentials, computational chemistry, atomistic machine learning, long-range interactions, molecular dynamics, KAIST, EPFL
+# Extra details for the Person schema.org markup on the homepage (see _includes/metadata.liquid)
+person:
+  alternate_name:
+    - Tulga Sodjargal
+    - Tulga-Erdene S.
+    - Tulga Erdene Sodjargal
+    - Соджаргал Тулга-Эрдэнэ
+    - Соджаргалын Тулга Эрдэнэ
+  job_title: Undergraduate Researcher
+  affiliation: KAIST
+  affiliation_url: https://www.kaist.ac.kr
+  knows_about:
+    - Machine learning interatomic potentials
+    - Long-range interactions
+    - Computational chemistry
+    - Atomistic machine learning
+    - Molecular dynamics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -61,7 +78,11 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: https://tulga-rdn.github.io/assets/img/20250317_201301.jpg # The site-wide (default for all links) Open Graph preview image
+og_image: https://tulga-rdn.github.io/assets/img/og-image.jpg # The site-wide (default for all links) Open Graph preview image
+og_image_alt: Tulga-Erdene Sodjargal next to a DPG 2025 poster on long-range machine-learned interatomic potentials
+og_image_width: 1200 # dimensions of og_image, used for og:image:width/height
+og_image_height: 630
+og_locale: en_US # Open Graph locale (language_TERRITORY); falls back to lang
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -82,7 +103,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # blog_name will be displayed in your blog page
+blog_name: blog # blog_name will be displayed in your blog page
 blog_description: Here, I write about things that interest me and things I have done in the past.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts

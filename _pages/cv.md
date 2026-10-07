@@ -8,6 +8,9 @@ nav_order: 5
 # redirects there immediately for anyone who types or bookmarks it.
 nav_href: /assets/pdf/Tulga_Sodjargal_CV.pdf
 redirect: /assets/pdf/Tulga_Sodjargal_CV.pdf
+description: CV of Tulga-Erdene Sodjargal (PDF).
+sitemap: false
+noindex: true
 ---
 
 [Download the CV as a PDF](/assets/pdf/Tulga_Sodjargal_CV.pdf) if you are not redirected automatically.

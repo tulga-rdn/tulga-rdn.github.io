@@ -2,6 +2,8 @@
 layout: post
 date: 2026-06-24 09:00:00+0900
 inline: true
+sitemap: false
+noindex: true
 related_posts: false
 ---
 

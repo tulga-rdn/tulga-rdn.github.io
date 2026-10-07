@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Our paper on LOREM, a long-range equivariant machine-learned interatomic potential, is out in TMLR!
+seo_title: "LOREM Paper Published in TMLR | Tulga-Erdene Sodjargal"
+description: "LOREM, a long-range equivariant machine-learned interatomic potential, is out in TMLR. Why scalar charges fall short and how equivariant messages help."
 date: 2026-04-06 16:11:00-0400
 inline: false
 related_posts: false

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Our preprint on scicode-widgets, a Python package for building interactive teaching notebooks, is out on arXiv!
+seo_title: "scicode-widgets Preprint on arXiv | Tulga-Erdene Sodjargal"
+description: "scicode-widgets is a Python package that turns Jupyter notebooks into interactive computational-science exercises with instant checks and easy grading."
 date: 2025-07-08 16:11:00-0400
 inline: false
 related_posts: false
