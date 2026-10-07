@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-blog",
           title: "blog",
-          description: "",
+          description: "Blog posts by Tulga-Erdene Sodjargal, mostly write-ups of class projects in bioinformatics and statistics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "CV of Tulga-Erdene Sodjargal (PDF).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -57,7 +57,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-presented-a-poster-on-long-range-machine-learned-interatomic-potentials-at-the-dpg-spring-meeting-2025-in-regensburg-germany",
           title: 'I presented a poster on long-range machine-learned interatomic potentials at the DPG Spring...',
-          description: "",
+          description: "Poster walk-through from the DPG Spring Meeting 2025: adding long-range electrostatics to machine-learned interatomic potentials with torch-pme and metatrain.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-i-m-spending-the-summer-in-boston-as-a-research-intern-at-the-wellman-center-for-photomedicine-mgh-harvard-medical-school-with-prof-mei-x-wu-i-ll-be-running-molecular-docking-and-simulations-to-help-make-sense-of-and-guide-the-experiments",
@@ -65,7 +65,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-preprint-on-scicode-widgets-a-python-package-for-building-interactive-teaching-notebooks-is-out-on-arxiv",
           title: 'Our preprint on scicode-widgets, a Python package for building interactive teaching notebooks, is...',
-          description: "",
+          description: "scicode-widgets is a Python package that turns Jupyter notebooks into interactive computational-science exercises with instant checks and easy grading.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
             },},{id: "news-our-preprint-introducing-lorem-a-machine-learned-interatomic-potential-that-passes-equivariant-messages-over-long-distances-is-out-on-arxiv",
@@ -73,7 +73,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-on-lorem-a-long-range-equivariant-machine-learned-interatomic-potential-is-out-in-tmlr",
           title: 'Our paper on LOREM, a long-range equivariant machine-learned interatomic potential, is out in...',
-          description: "",
+          description: "LOREM, a long-range equivariant machine-learned interatomic potential, is out in TMLR. Why scalar charges fall short and how equivariant messages help.",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
             },},{id: "news-i-joined-the-data-science-amp-amp-artificial-intelligence-lab-dsail-at-kaist-as-a-research-intern-with-prof-chanyoung-park-i-ll-be-working-on-using-reinforcement-learning-and-llms-for-materials-design",
